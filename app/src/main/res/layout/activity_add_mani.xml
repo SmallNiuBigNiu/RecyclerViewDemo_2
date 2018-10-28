@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_mani"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.gdcp.recyclerviewdemo.AddManiActivity">
+
+    <EditText
+        android:id="@+id/et_add_name"
+        android:hint="请输入学生名字"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_add_age"
+        android:hint="请输入学生年龄"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/dog1"/>
+        <RadioButton
+            android:id="@+id/radioBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/dog2"/>
+        <RadioButton
+            android:id="@+id/radioBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/dog3"/>
+        <RadioButton
+            android:id="@+id/radioBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/dog4"/>
+        <RadioButton
+            android:id="@+id/radioBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/dog5"/>
+
+    </RadioGroup>
+
+    <Button
+        android:onClick="add"
+        android:id="@+id/btn_baocun"
+        android:layout_width="match_parent"
+        android:text="保存"
+        android:layout_height="wrap_content" />
+</LinearLayout>
